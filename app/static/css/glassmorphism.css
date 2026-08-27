@@ -1,0 +1,13 @@
+/* ===========================================================================
+   QueryMind — surface variants
+   Kept as a separate stylesheet (loaded after main.css) for surfaces that
+   need a slightly different treatment than the default .qm-card / .glass-panel.
+   Note: the product moved away from a frosted-glass look in favor of solid,
+   high-contrast cards (see main.css) — this file now covers accent surfaces.
+   =========================================================================== */
+
+.qm-toast { border: 1px solid rgba(255, 255, 255, 0.08); }
+
+.dropzone.dragover { box-shadow: 0 0 0 4px var(--qm-accent-soft); }
+
+.qm-elevated { box-shadow: var(--qm-shadow-lg); }
