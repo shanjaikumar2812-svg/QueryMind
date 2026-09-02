@@ -1,4 +1,4 @@
-# Python
+rm cached# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
